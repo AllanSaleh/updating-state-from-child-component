@@ -1,3 +1,4 @@
+// import Form from "./components/Form";
 import Child from "./components/Child";
 import { useState } from "react";
 function App() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <div>
       <Child callback={callback} />
+      {/* <Form /> */}
       {name}
     </div>
   );
